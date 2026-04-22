@@ -150,7 +150,7 @@ Servidor rodando em http://localhost:3000
 ## 👨‍💻 Autor
 
 Desenvolvido por **Vithor Rosa** — QA Engineer aprendendo inglês do jeito mais técnico possível.
-
+> 🤖 Projeto desenvolvido com auxílio do [Claude](https://claude.ai) (Anthropic)
 <p>
   <a href="https://www.linkedin.com/in/vitor-rosa-2886883b8/" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
