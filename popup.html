@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Tradutor Bilíngue</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: system-ui, sans-serif;
+      width: 220px;
+      padding: 16px;
+      background: #0f172a;
+      color: #f1f5f9;
+    }
+    h1 { font-size: 15px; font-weight: 700; margin-bottom: 4px; }
+    p  { font-size: 11px; color: #64748b; margin-bottom: 14px; line-height: 1.4; }
+    button {
+      display: block; width: 100%;
+      border: none; border-radius: 8px;
+      padding: 10px 12px; margin-bottom: 8px;
+      cursor: pointer; font-size: 13px; font-weight: 600;
+      transition: opacity 0.15s;
+    }
+    button:hover  { opacity: 0.85; }
+    button:active { opacity: 0.7;  }
+    #enToPtBtn  { background: #2563eb; color: #fff; }
+    #ptToEnBtn  { background: #0f766e; color: #fff; }
+    #restoreBtn { background: #1e293b; color: #94a3b8; border: 1px solid #334155; }
+    #status { margin-top: 10px; font-size: 11px; color: #64748b; min-height: 14px; line-height: 1.4; }
+  </style>
+</head>
+<body>
+  <h1>Tradutor Bilíngue</h1>
+  <p>Original em cima, tradução embaixo, frase por frase.</p>
+
+  <button id="enToPtBtn">Inglês → Português</button>
+  <button id="ptToEnBtn">Português → Inglês</button>
+  <button id="restoreBtn">Restaurar página</button>
+
+  <div id="status"></div>
+  <script src="popup.js"></script>
+</body>
+</html>

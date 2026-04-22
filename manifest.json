@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Tradutor Bilíngue MVP",
+  "version": "1.0.2",
+  "description": "Mostra a tradução linha por linha abaixo do texto original.",
+  "permissions": ["activeTab", "scripting", "storage", "tabs"],
+  "host_permissions": [
+    "<all_urls>",
+    "http://localhost:3000/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
